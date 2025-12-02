@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buster Sword - Jackys Props</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="site-title">
+      <img src="Images/Logo.png" alt="Logo" />
+    </h1>
+    <!-- Nav Bar -->
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="props.html">Props</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faqs.html">FAQ</a></li>
+        <li>
+          <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <section class="product-container">
+      <!-- left side Product Info -->
+      <div class="product-details">
+        <h2>Final Fantasy VII – Buster Sword</h2>
+        <p class="price">$400.00 USD</p>
+        <button class="add-to-cart" onclick="addToCart('Buster Sword', 400, 'images/BusterSword/BS Front.jpg')">
+          Add to Cart
+        </button>
+
+        <p class="note">Taxes included. Shipping calculated at checkout.</p>
+
+        <p class="description">
+          <strong>Description:</strong><br />
+          The legendary Buster Sword from Final Fantasy VII weilded by the
+          iconic Cloud Strife. This massive broadsword features a wide,
+          double-edged blade with a distinctive notch near the hilt, a simple
+          crossguard, and a wrapped handle for a firm grip. Crafted with
+          attention to detail, this prop captures the essence of the original
+          design, making it a must-have for any Final Fantasy fan or
+          cosplayer.
+        </p>
+
+        <p class="specifications">
+          <strong>Specifications:</strong><br />
+          <strong>- Length:</strong> Approximately 66 inches (170cm)<br />
+          <strong>- Material:</strong> 2x Strong PLA with 3 wooden dowels
+          going through<br />
+          <strong>- Weight:</strong> roughly 25lbs - 27lbs<br />
+          <strong>- Finish:</strong> Painted with metallic silver and black
+          accents to mimic the in-game appearance<br />
+        </p>
+      </div>
+
+      <!-- right side pictures-->
+      <div class="product-image">
+        <div class="product-gallery-grid">
+          <img src="images/BusterSword/BS on floor.png" alt="Buster Sword" />
+          <img src="images/BusterSword/BSMateria.jpg" alt="Materia" />
+          <img src="images/BusterSword/Materia BS.jpg" alt="Back View" />
+          <img src="images/BusterSword/BS Leather.jpg" alt="leather view" />
+        </div>
+      </div>
+    </section>
+
+    <div class="back-link">
+      <a href="Index.html">&larr; Back to Products</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wasaki Props. All rights reserved.</p>
+  </footer>
+  <script src="filter.js"></script>
+  <script src="cart.js"></script>
+</body>
+
+</html>

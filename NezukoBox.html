@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nezuko Box - Jackys Props</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="site-title">
+      <img src="Images/Logo.png" alt="Logo" />
+    </h1>
+
+    <!-- Nav Bar -->
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="props.html">Props</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faqs.html">FAQ</a></li>
+        <li>
+          <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <section class="product-container">
+
+      <!-- Left side details -->
+      <div class="product-details">
+        <h2>Demon Slayer – Nezuko Box (Wooden)</h2>
+        <p class="price">$400.00 USD</p>
+
+        <button class="add-to-cart"
+          onclick="addToCart('Demon Slayer - Nezuko Box (Wooden)', 400, 'Images/NezukoBox/NezukoFront.png')">
+          Add to Cart
+        </button>
+
+        <p class="note">Taxes included. Shipping calculated at checkout.</p>
+
+        <p class="description">
+          <strong>Description:</strong><br />
+          This is a handcrafted replica of Nezuko Kamado’s iconic wooden box from
+          <em>Demon Slayer: Kimetsu no Yaiba</em>. Built for cosplayers and collectors,
+          the box is made using real wood panels, traditional-style metal framing, and
+          accurate color tones based on the anime design.
+          <br /><br />
+          Designed to be lightweight yet durable, this prop is perfect for cosplay,
+          display, or photography.
+        </p>
+
+        <p class="specifications">
+          <strong>Specifications:</strong><br />
+          <strong>- Height:</strong> ~26 inches (66 cm)<br />
+          <strong>- Width:</strong> ~14 inches (36 cm)<br />
+          <strong>- Depth:</strong> ~14 inches (36 cm)<br />
+          <strong>- Material:</strong> Wood panels, metal hardware, leather straps<br />
+          <strong>- Features:</strong> Hinged back door, accurate anime color scheme<br />
+        </p>
+      </div>
+
+      <!-- Right side pics -->
+      <div class="product-image">
+        <div class="product-gallery-grid">
+          <img src="Images/NezukoBox/NezukoFront2.JPG" alt="Nezuko Box Front" />
+          <img src="Images/NezukoBox/NezukoOpened.JPG" alt="Nezuko Box NezukoOpened" />
+          <img src="Images/NezukoBox/NezukoBack.JPG" alt="Nezuko Box BacK" />
+          <img src="Images/NezukoBox/NezukoCorner.JPG" alt="Nezuko Box NezukoCorner" />
+        </div>
+      </div>
+
+    </section>
+
+    <div class="back-link">
+      <a href="Index.html">&larr; Back to Products</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wasaki Props. All rights reserved.</p>
+  </footer>
+
+  <script src="filter.js"></script>
+  <script src="cart.js"></script>
+
+</body>
+
+</html>

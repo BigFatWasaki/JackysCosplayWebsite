@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gunblade - Jackys Props</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="site-title">
+      <img src="Images/Logo.png" alt="Logo" />
+    </h1>
+
+    <!-- Nav Bar -->
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="props.html">Props</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faqs.html">FAQ</a></li>
+        <li>
+          <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <section class="product-container">
+
+      <div class="product-details">
+        <h2>Final Fantasy VIII – Gunblade</h2>
+        <p class="price">$150.00 USD</p>
+
+        <button class="add-to-cart" onclick="addToCart('FF:VIII - Gunblade', 150, 'Images/GunBlade/GBOnFloor.JPG')">
+          Add to Cart
+        </button>
+
+        <p class="note">Taxes included. Shipping calculated at checkout.</p>
+
+        <p class="description">
+          <strong>Description:</strong><br />
+          The iconic Gunblade from Final Fantasy VIII, famously wielded by Squall
+          Leonhart. This hybrid weapon combines the structure of a longsword with
+          the mechanical detail of a revolver, creating one of the most unique and
+          recognizable weapons in gaming history. Designed with accurate in-game
+          proportions and a sleek metallic finish, this prop is perfect for display
+          or cosplay.
+        </p>
+
+        <p class="specifications">
+          <strong>Specifications:</strong><br />
+          <strong>- Length:</strong> Approximately 42 inches (106 cm)<br />
+          <strong>- Material:</strong> High-strength PLA with internal wooden support<br />
+          <strong>- Weight:</strong> Light and durable (approx. 5–7 lbs)<br />
+          <strong>- Finish:</strong> Metallic silver blade with weathered gunmetal handle<br />
+        </p>
+      </div>
+
+      <!-- right side pics -->
+      <div class="product-image">
+        <div class="product-gallery-grid">
+          <img src="images/GunBlade/GBOnWallFront.png" alt="Gunblade Front View" />
+          <img src="images/GunBlade/GB Barrel.JPG" alt="Gunblade Close-up" />
+        </div>
+      </div>
+
+    </section>
+
+    <div class="back-link">
+      <a href="Index.html">&larr; Back to Products</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wasaki Props. All rights reserved.</p>
+  </footer>
+
+  <script src="filter.js"></script>
+  <script src="cart.js"></script>
+
+</body>
+
+</html>

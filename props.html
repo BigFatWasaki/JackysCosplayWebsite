@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Props - Categories | Jackys Props</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="site-title">
+            <img src="Images/Logo.png" alt="Logo" />
+        </h1>
+
+        <!-- Nav Bar -->
+        <nav>
+            <ul style="list-style:none; display:flex; justify-content:center; background:#222; padding:0; margin:0;">
+                <li style="margin:0 20px;"><a href="Index.html"
+                        style="color:#fff; text-decoration:none; font-weight:bold;">Home</a></li>
+                <li style="margin:0 20px;"><a href="props.html"
+                        style="color:#fff; text-decoration:none; font-weight:bold;">Props</a></li>
+                <li style="margin:0 20px;"><a href="aboutme.html"
+                        style="color:#fff; text-decoration:none; font-weight:bold;">About Me</a></li>
+                <li style="margin:0 20px;"><a href="contact.html"
+                        style="color:#fff; text-decoration:none; font-weight:bold;">Contact</a></li>
+                <li style="margin:0 20px;"> <a href="faqs.html"
+                        style="color:#fff; text-decoration:none; font-weight:bold;">FAQ</a></li>
+                <li> <a href="cart.html">Cart (<span id="cart-count">0</span>)</a> </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Categories for sorting props -->
+
+    <main>
+        <section class="products-categories"
+            style="max-width:900px;margin:2rem auto;padding:2rem;text-align:center;background:#fff;border-radius:8px;">
+            <h2>Browse Props by Category</h2>
+            <p>Click a category to view items</p>
+            <!-- Category Buttons -->
+            <div class="category-buttons">
+                <!-- This makes it so that whenever you sort by final fantasy or to any genre it will sort for you
+                on the html page -->
+                <button class="category-btn" onclick="setCategory('all')">Show All</button>
+                <button class="category-btn" onclick="setCategory('Anime')">Anime</button>
+                <button class="category-btn" onclick="setCategory('Final Fantasy')">Final Fantasy</button>
+                <button class="category-btn" onclick="setCategory('Cyberpunk 2077')">Cyberpunk 2077</button>
+                <button class="category-btn" onclick="setCategory('Video Games')">Video Games</button>
+            </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wasaki Props. All rights reserved.</p>
+    </footer>
+    <script src="filter.js"></script>
+    <script src="cart.js"></script>
+</body>
+
+</html>
